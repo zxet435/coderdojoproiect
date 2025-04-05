@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Register Section -->
+    <div id="register">
+        <h1 class="register-text">Register</h1>
+        <div class="inputs">
+            <input
+                type="text"
+                required
+                minlength="4"
+                maxlength="8"
+                placeholder="Username"
+                class="input-user"
+            />
+            <input
+                type="email"
+                required
+                placeholder="Email"
+                class="input-email"
+            />
+            <input
+                type="password"
+                required
+                minlength="4"
+                maxlength="8"
+                placeholder="Password"
+                class="input-pass"
+            />
+            
+        </div>
+        
+        <button class="button button-register" onclick="registerUser()">Register</button>
+        
+        <div class="already-have-account">Already have an account?</div>
+        <button
+            class="button button-login"
+            onclick="window.location.href='login.html'">Login</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<body>
+    <!-- Title -->
+    <h1 style="display: none">SpaceX Launches</h1>
+  
+    <!-- CSS file -->
+    <link rel="stylesheet" href="styles.css" />
+  
+    <!-- Launches -->
+    <div id="launches" style="display: none"></div>
+  
+    <!-- Login & Register -->
+    <div id="login-and-register">
+      <h1 class="login-text">Login</h1>
+      <div class="inputs">
+        <input
+          type="text"
+          required
+          minlength="4"
+          maxlength="8"
+          placeholder="Username"
+          class="input-user"
+        />
+        <input
+          type="password"
+          required
+          minlength="4"
+          maxlength="8"
+          placeholder="Password"
+          class="input-pass"
+        />
+      </div>
+  
+      <button class="button button-login">Login</button>
+  
+      <div class="dont-have-account">Don't have an account?</div>
+      <button class="button button-register"
+      onclick="window.location.href='register.html'"
+       >Register</button>
+    </div>
+  
+    <!-- Script file -->
+    <script src="script.js"></script>
+  </body>

@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* SpaceX Launch Cards */
+.launch {
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    position: relative;
+}
+
+#launches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Hide details by default */
+.hidden {
+    display: none;
+}
+.button {
+    width: 100px;
+    border-radius: 8px;
+    color: white
+}
+
+.button-login {
+    background-color: #433D8B;
+    margin-top: 10px;
+    margin-bottom: 32px;
+    padding: 3px;
+}
+
+.button-register {
+    background-color: #C8ACD6;
+    padding: 5px;
+    margin: 10px;
+}
+
+#login-and-register {
+    text-align: center;
+    height: 100vh;
+    background-color: #17153B;
+}
+.login-text {
+    color:#3a2e80;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+.dont-have-account {
+    color: #a66dc3 ;
+}
+
+.input-pass {
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin: 10px;
+}
+.input-user {
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin: 5px;
+}
+
+.inputs {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: flex;
+        align-items: center;
+}
+
+
+#register {
+    text-align: center;
+    height: 100vh;
+    background-color: #17153B; /* Same as login page */
+    padding: 20px;
+}
+
+.register-text {
+    color: #3a2e80; /* Matches the login text color */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+.input-user, .input-email, .input-pass {
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin: 5px;
+    padding: 5px;
+}
+
+.button-register {
+    background-color: #C8ACD6;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.button-login {
+    background-color: #433D8B;
+    margin-top: 10px;
+    margin-bottom: 32px;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.already-have-account {
+    color: #a66dc3;
+    margin-top: 10px;
+}
+
+#search-container {
+    display: none;
+}
+
+
